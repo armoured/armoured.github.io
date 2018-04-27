@@ -275,7 +275,16 @@ header .header-projects {
   line-height: 40px;
   color: #fff;
   text-align: center;
-  text-shadow: 2px 2px 8px #111;
+
+  text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
 }
 
 .index-banner-contact h2 {
