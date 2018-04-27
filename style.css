@@ -432,14 +432,15 @@ header .header-projects {
   font-weight: 600;
   color: #111;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .projects-links .projects-link {
-  float: left;
   width: 230px;
   height: 230px;
-  margin: 20px 10px 0;
+  margin: 20px auto;
   background-color: #e3e3e3;
+
 }
 
 .projects-links .projects-link p {
@@ -450,6 +451,39 @@ header .header-projects {
   color: #111;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1000px) {
+  .projects-links {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .projects-links h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+  }
+
+  .projects-links .projects-link {
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin: 20px 10px 0;
+    background-color: #e3e3e3;
+  }
+
+  .projects-links .projects-link p {
+    padding-top: 45%;
+    font-family: Catamaran;
+    font-size: 24px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+  }
 }
 
 /*CASE*/
@@ -467,24 +501,24 @@ header .header-projects {
   display: block;
   margin: 0 auto;
   padding: 30px 0;
-  max-width: 1000px;
-  max-height: 500px;
+  width: 100%;
+  height: calc(100vh - 400px);
 }
 
 .project-info iframe {
   display: block;
   margin: 0 auto;
   padding: 30px 0;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: calc(100vh - 200px);
 }
 
 .project-info img {
+  width: 100%;
+  height: calc(100vh - 350px);
   display: block;
   margin: 0 auto;
   padding: 30px 0;
-  width: 650px;
-  height: 500px;
 }
 
 .project-info article h3 {
@@ -493,6 +527,7 @@ header .header-projects {
   font-weight: 600;
   color: #111;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .project-info article p {
@@ -501,20 +536,21 @@ header .header-projects {
   font-weight: 600;
   line-height: 24px;
   color: #111;
-  column-count: 3;
+  column-count: 1;
   column-gap: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .project-info ul {
   width: fit-content;
-  float: left;
-  padding-left: 20px;
+  text-align: center;
 }
 
 .project-info ul li {
-  display: block;
+  display: table;
+  margin: 0 auto;
   list-style: none;
 }
 
@@ -523,6 +559,96 @@ header .header-projects {
   font-size: 16px;
   color: #111;
   line-height: 40px;
+}
+
+.vidnote {
+  font-family: Catamaran;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .project-info h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .project-info video {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+    max-width: 1000px;
+    max-height: 500px;
+  }
+
+  .project-info iframe {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 500px;
+    height: 500px;
+  }
+
+  .project-info img {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 650px;
+    height: 500px;
+  }
+
+  .project-info article h3 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  .project-info article p {
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #111;
+    column-count: 3;
+    column-gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+  }
+
+  .project-info ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  .project-info ul li {
+    display: block;
+    list-style: none;
+    margin: none;
+  }
+
+  .project-info ul li a {
+    font-family: Catamaran;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+  }
+
+  .vidnote {
+    font-size: 0px;
+  }
 }
 
 /*FOOTER*/
