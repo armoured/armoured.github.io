@@ -319,7 +319,7 @@ header .header-projects {
   text-shadow: 2px 2px 8px #111;
 }
 
-.index-banner-resume h1 {
+.index-banner-resume embed {
   font-family: Cormorant Garamond;
   font-size: 28px;
   font-weight: 100;
