@@ -276,6 +276,7 @@ header .header-projects {
   color: #fff;
   text-align: center;
 
+
   text-shadow:
         0.05em 0 black,
         0 0.05em black,
@@ -319,7 +320,7 @@ header .header-projects {
   text-shadow: 2px 2px 8px #111;
 }
 
-.index-banner-resume embed {
+.index-banner-resume h1 {
   font-family: Cormorant Garamond;
   font-size: 28px;
   font-weight: 100;
@@ -386,7 +387,7 @@ header .header-projects {
     display: block;
     width: 560px;
     margin: 0 auto;
-    margin-top: 175px;
+    margin-top: 260px;
   }
 
   .index-banner-contact h1 {
