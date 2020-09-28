@@ -707,7 +707,7 @@ section:nth-of-type(3) #gallery .button {
   width: 170px;
 }
 section:nth-of-type(3) #gallery .mix {
-  display: inline-block;
+  display: none;
   position: relative;
 }
 section:nth-of-type(3) #gallery .mix .waypoint {
