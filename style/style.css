@@ -368,11 +368,14 @@ nav .active {
 
 .modal-wrap {
   /* height: 100vh; */
-  height: 110vh;
+  /* height: 110vh; */
+  height: 110%;
   pointer-events: none;
   position: fixed;
   width: 100vw;
   z-index: 100;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch
 }
 .modal-wrap .mask {
   background: rgba(0, 0, 0, 0.5);
