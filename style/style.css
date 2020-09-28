@@ -1294,8 +1294,8 @@ footer .footnote .highlight {
 
 /* 1792x828px at 326ppi */
 @media only screen 
-    and (device-width : 414px) 
-    and (device-height : 896px) 
+    and (max-width : 414px) 
+    and (max-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) { 
 
       .modal-wrap .button {
@@ -1311,8 +1311,8 @@ footer .footnote .highlight {
 
 /* 2436x1125px at 458ppi */
 @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
+    and (max-width : 375px) 
+    and (max-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
 
     .modal-wrap .button {
@@ -1326,8 +1326,8 @@ footer .footnote .highlight {
 
 /* 2688x1242px at 458ppi */
 @media only screen 
-    and (device-width : 414px) 
-    and (device-height : 896px) 
+    and (max-width : 414px) 
+    and (max-height : 896px) 
     and (-webkit-device-pixel-ratio : 3) { 
 
     .modal-wrap .button {
