@@ -398,7 +398,7 @@ nav .active {
   transition: all 0.3s;
 }
 .modal-wrap .close {
-  bottom: 35px;
+  bottom: 25px;
   color: #bbb;
   cursor: pointer;
   font-size: 20pt;
@@ -439,7 +439,7 @@ nav .active {
 .modal-wrap .button {
   background: #e31b6d;
   border: 0;
-  bottom: 35px;
+  bottom: 25px;
   color: #fff;
   cursor: pointer;
   font-size: 10pt;
