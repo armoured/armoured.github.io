@@ -707,13 +707,13 @@ section:nth-of-type(3) #gallery .button {
   width: 170px;
 }
 section:nth-of-type(3) #gallery .mix {
-  display: none;
+  display: inline-block;
   position: relative;
 }
 section:nth-of-type(3) #gallery .mix .waypoint {
   background: #fff;
 }
-section:nth-of-type(3) #gallery .mix .button:hover {
+section:nth-of-type(3) #gallery .mix .button:hover, section:nth-of-type(3) #gallery .mix .button:active {
   background: #e31b6d;
   color: #fff;
 }
@@ -759,15 +759,15 @@ section:nth-of-type(3) #gallery .mix .card {
   transition: opacity 0.5s;
   width: calc(50vw - 8px);
 }
-section:nth-of-type(3) #gallery .mix:hover .card {
+section:nth-of-type(3) #gallery .mix:hover .card, section:nth-of-type(3) #gallery .mix:active .card {
   opacity: 0;
 }
-section:nth-of-type(3) #gallery .mix:hover .text {
+section:nth-of-type(3) #gallery .mix:hover .text, section:nth-of-type(3) #gallery .mix:active .text {
   cursor: default;
   opacity: 1;
   top: 24%;
 }
-section:nth-of-type(3) #gallery .mix:hover .button {
+section:nth-of-type(3) #gallery .mix:hover .button, section:nth-of-type(3) #gallery .mix:active .button {
   bottom: 24%;
   opacity: 1;
 }
