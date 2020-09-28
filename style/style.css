@@ -989,7 +989,7 @@ footer .footnote .highlight {
   font-family: "Open Sans";
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
   section:nth-of-type(3) #gallery .mix .card {
     width: 100vw;
   }
