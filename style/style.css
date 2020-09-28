@@ -1299,11 +1299,11 @@ footer .footnote .highlight {
     and (-webkit-device-pixel-ratio : 2) { 
 
       .modal-wrap .button {
-        bottom: 100px;
+        bottom: 75px;
       }
 
       .modal-wrap .close {
-        bottom: 100px;
+        bottom: 75px;
       }
 
 
@@ -1316,11 +1316,11 @@ footer .footnote .highlight {
     and (-webkit-device-pixel-ratio : 3) { 
 
     .modal-wrap .button {
-      bottom: 100px;
+      bottom: 75px;
     }
 
     .modal-wrap .close {
-      bottom: 100px;
+      bottom: 75px;
     }
 }
 
@@ -1331,11 +1331,11 @@ footer .footnote .highlight {
     and (-webkit-device-pixel-ratio : 3) { 
 
     .modal-wrap .button {
-      bottom: 100px;
+      bottom: 75px;
     }
 
     .modal-wrap .close {
-      bottom: 100px;
+      bottom: 75px;
     }
 }
 
