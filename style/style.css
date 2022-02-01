@@ -287,7 +287,7 @@ nav .link-wrap {
   width: 100%;
 }
 nav .link-wrap.visible {
-  height: 220px;
+  height: 250px;
 }
 nav .link-wrap div {
   cursor: pointer;
@@ -299,6 +299,7 @@ nav .link-wrap div {
 nav .link-wrap div:first-child {
   padding: 25px 20px 12px 20px;
 }
+
 nav .link-wrap div:hover {
   color: #e31b6d;
 }
