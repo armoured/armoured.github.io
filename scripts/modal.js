@@ -1,6 +1,13 @@
 $(document).ready(function() {
   // MODAL
   var modalText = {
+    customcompliance: {
+      title: 'Custom Compliance Standards',
+      tag: 'REST API Development',
+      detail:
+        'Custom Compliance Standards allow users to create their own Compliance Standards from a list of controls that map to rules. Compliance Standards are an industry specific term used to judge an organisations level of compliance to various security recommendations. Common compliance standards include NIST, AWAF and PCI DSS. Custom compliance takes this to the next level, allowing users to mix and match any security controls they need.',
+      link: 'https://cloudone.trendmicro.com/docs/conformity/api-reference/tag/Custom-Compliance-Standards#paths/~1compliance-standards~1custom/post'
+    },
     activelife: {
       title: 'ActiveLife by FitSense',
       tag: 'HEALTH MOBILE APP',
@@ -156,7 +163,7 @@ $(document).ready(function() {
       $(this).text(modalText[id].bullets[index]);
     });
     $.each($('#modal .slide'), function(index, value) {
-      if (id === 'notare' || id === 'alice' || id === 'activelife' || id === 'smartgames' || id === 'ratelimiter' || id === 'popupstacks') {
+      if (id === 'notare' || id === 'alice' || id === 'activelife' || id === 'smartgames' || id === 'ratelimiter' || id === 'popupstacks' || id === 'customcompliance') {
         // $(this).css({
         //   background:
         //     "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
